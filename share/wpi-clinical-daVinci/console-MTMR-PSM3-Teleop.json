@@ -3,16 +3,29 @@
     "io": {
         "footpedals": "io/sawRobotIO1394-MTMR-foot-pedals.xml"
         , "firewire-protocol": "sequential-read-write"
-        //, "firewire-protocol": "broadcast-read-write"
-        //, "port": "udp"
+        //,"port": "udp"
     }
     ,
     "arms":
     [
         {
+            "name": "PSM3",
+            "type": "PSM",
+            "serial": "32653"
+        }
+        ,
+        {
             "name": "MTMR",
             "type": "MTM",
             "serial": "36370"
+        }
+    ]
+    ,
+    "psm-teleops":
+    [
+        {
+            "mtm": "MTMR",
+            "psm": "PSM3"
         }
     ]
 }

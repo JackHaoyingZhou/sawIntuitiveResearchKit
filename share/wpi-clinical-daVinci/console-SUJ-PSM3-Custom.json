@@ -2,8 +2,8 @@
 {
     "io": 
     {
-        //"footpedals": "io/sawRobotIO1394-MTMR-foot-pedals.xml"
-        //, "firewire-protocol": "sequential-read-write"
+        "footpedals": "io/sawRobotIO1394-MTMR-foot-pedals.xml"
+        , "firewire-protocol": "sequential-read-write"
         //, "firewire-protocol": "broadcast-read-write"
         //"port": "udp"
     }
@@ -25,6 +25,8 @@
             "name": "PSM3",
             "type": "PSM",
             "serial": "32653",
+            "system": "wpi-clinical-daVinci",
+            "arm": "PSM3-32653-Custom.json",
             "base-frame": {
                 "component": "SUJ",
                 "interface": "PSM3"

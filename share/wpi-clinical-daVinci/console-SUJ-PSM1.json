@@ -22,12 +22,12 @@
         }
         ,
         {
-            "name": "PSM3",
+            "name": "PSM1",
             "type": "PSM",
-            "serial": "32653",
+            "serial": "23959",
             "base-frame": {
                 "component": "SUJ",
-                "interface": "PSM3"
+                "interface": "PSM1"
             }
         }
     ]
