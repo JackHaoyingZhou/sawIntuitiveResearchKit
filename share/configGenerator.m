@@ -103,7 +103,7 @@ gearRatio(CONST_ECM,:) = [240 240 2748.55 300.15    1.0   1.0   1.0];
 % Encoder counts per turn (quadrature encoder)
 % NOTE: no encoder for last axis
 encCPT(CONST_MTM,:) = [ 4000  4000  4000 4000   64   64   64];
-encCPT(CONST_PSM,:) = [14400 14400 14400 4000 4000 4000 4000];
+encCPT(CONST_PSM,:) = [14400 16000 14400 4000 4000 4000 4000];
 encCPT(CONST_ECM,:) = [ 4000  4000   640   64    1    1    1];
 
 % Pitch
