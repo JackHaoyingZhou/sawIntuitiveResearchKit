@@ -1383,7 +1383,8 @@ void mtsIntuitiveResearchKitArm::control_servo_cp(void)
         vctDoubleVec jointSet(m_kin_measured_js.Position());
 
         // compute desired arm position
-        CartesianPositionFrm.From(CartesianSetParam.Goal());
+        // CartesianPositionFrm.From(CartesianSetParam.Goal());
+        CartesianPositionFrm.From(m_servo_cp.Goal());
         if (this->InverseKinematics(jointSet, m_base_frame.Inverse() * CartesianPositionFrm) == robManipulator::ESUCCESS) {
             // finally send new joint values
             servo_jp_internal(jointSet);
@@ -1878,7 +1879,8 @@ void mtsIntuitiveResearchKitArm::servo_cp(const prmPositionCartesianSet & newPos
     SetControlSpaceAndMode(mtsIntuitiveResearchKitArmTypes::CARTESIAN_SPACE,
                            mtsIntuitiveResearchKitArmTypes::POSITION_MODE);
     // set goal
-    CartesianSetParam = newPosition;
+    // CartesianSetParam = newPosition;
+    m_servo_cp = newPosition;
     m_new_pid_goal = true;
 }
 

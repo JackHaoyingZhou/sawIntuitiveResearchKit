@@ -295,7 +295,8 @@ class CISST_EXPORT mtsIntuitiveResearchKitArm: public mtsTaskPeriodic
 
     // cache cartesian goal position and increment
     bool m_new_pid_goal;
-    prmPositionCartesianSet CartesianSetParam;
+    // prmPositionCartesianSet CartesianSetParam;
+    prmPositionCartesianSet m_servo_cp;
     vctFrm3 mCartesianRelative;
 
     // internal kinematics
