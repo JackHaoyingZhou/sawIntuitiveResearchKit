@@ -1,0 +1,3 @@
+[submodule "share/wpi-triad/project_traid_datacollect"]
+	path = share/wpi-triad/project_traid_datacollect
+	url = https://github.com/JackHaoyingZhou/project_traid_datacollect.git

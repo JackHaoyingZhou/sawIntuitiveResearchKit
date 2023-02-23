@@ -2,10 +2,10 @@
 {
     "io": 
     {
-        //"footpedals": "io/sawRobotIO1394-MTMR-foot-pedals.xml"
-        //, "firewire-protocol": "sequential-read-write"
+        "footpedals": "io/sawRobotIO1394-MTMR-foot-pedals.xml"
+        , "firewire-protocol": "sequential-read-write"
         //, "firewire-protocol": "broadcast-read-write"
-        "port": "udp"
+        //"port": "udp"
     }
     ,
     "arms":
