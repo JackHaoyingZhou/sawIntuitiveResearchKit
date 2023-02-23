@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Config Version="4">
-   <Robot Name="ECM" NumOfActuator="4" NumOfJoint="4" SN="25975">
+<Config Version="5">
+   <Robot Name="ECM" ControllerType="QLA1" NumOfActuator="4" NumOfJoint="4" SN="25975">
       <Actuator ActuatorID="0" AxisID="0" BoardID="4" Type="Revolute">
          <Drive>
             <AmpsToBits Offset="32978" Scale="5242.88"/>
@@ -12,9 +12,9 @@
             <AmpsToBits Offset="32969" Scale="5242.88"/>
             <BitsToFeedbackAmps Offset="-6.253425" Scale="0.000190738"/>
             <MaxCurrent Unit="A" Value="0.250"/>
-            <ReleaseCurrent Unit="A" Value="0.210"/>
+            <ReleaseCurrent Unit="A" Value="0.220"/>
             <ReleaseTime Value="1.000"/>
-            <ReleasedCurrent Unit="A" Value="0.050"/>
+            <ReleasedCurrent Unit="A" Value="0.055"/>
             <EngagedCurrent Unit="A" Value="0.000"/>
          </AnalogBrake>
          <Encoder>

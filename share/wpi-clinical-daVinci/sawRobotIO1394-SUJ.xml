@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Config Version="4">
-   <Robot Name="SUJ" NumOfActuator="4" NumOfJoint="4" Type="io-only">
+<Config Version="5">
+   <Robot Name="SUJ" ControllerType="QLA1" NumOfActuator="4" NumOfJoint="4" Type="io-only">
       <Actuator ActuatorID="0" AxisID="0" BoardID="12">
          <Drive>
-            <AmpsToBits Offset="32879" Scale="5242.88"/>
-            <BitsToFeedbackAmps Offset="-6.239143" Scale="0.000190738"/>
+            <AmpsToBits Offset="32877" Scale="5242.88"/>
+            <BitsToFeedbackAmps Offset="-6.238770" Scale="0.000190738"/>
             <MaxCurrent Unit="A" Value="2.2"/>
          </Drive>
          <AnalogIn>
@@ -14,7 +14,7 @@
       <Actuator ActuatorID="1" AxisID="1" BoardID="12">
          <Drive>
             <AmpsToBits Offset="32995" Scale="5242.88"/>
-            <BitsToFeedbackAmps Offset="-6.286066" Scale="0.000190738"/>
+            <BitsToFeedbackAmps Offset="-6.286086" Scale="0.000190738"/>
             <MaxCurrent Unit="A" Value="2.2"/>
          </Drive>
          <AnalogIn>
@@ -23,8 +23,8 @@
       </Actuator>
       <Actuator ActuatorID="2" AxisID="2" BoardID="12">
          <Drive>
-            <AmpsToBits Offset="32760" Scale="5242.88"/>
-            <BitsToFeedbackAmps Offset="-6.219004" Scale="0.000190738"/>
+            <AmpsToBits Offset="32758" Scale="5242.88"/>
+            <BitsToFeedbackAmps Offset="-6.218900" Scale="0.000190738"/>
             <MaxCurrent Unit="A" Value="2.2"/>
          </Drive>
          <AnalogIn>
@@ -34,7 +34,7 @@
       <Actuator ActuatorID="3" AxisID="3" BoardID="12">
          <Drive>
             <AmpsToBits Offset="32775" Scale="5242.88"/>
-            <BitsToFeedbackAmps Offset="-6.236977" Scale="0.000190738"/>
+            <BitsToFeedbackAmps Offset="-6.236988" Scale="0.000190738"/>
             <MaxCurrent Unit="A" Value="2.2"/>
          </Drive>
          <AnalogIn>
